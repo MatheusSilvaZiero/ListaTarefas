@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root{
+
+    --font:'Lato', sans-serif;
+
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+header {
+
+    width: 300px;
+    margin: 0 550px;
+}
+
+header h1 {
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.img_header {
+
+    width: 70px;
+    height: auto;
+    float: left;
+}
+
+nav {
+
+    width: 300px;
+    margin: 0 550px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+
+    color:  #0ccbde;
+}
+
+main {
+
+    width: 750px;
+    margin: 40px 370px;
+}
+
+main section {
+
+    width: 500px;
+    height: auto;
+    margin: 40px 100px;
+    border-radius: 20px;
+    background-color: #f6f6f9;
+
+}
+
+main section h2 {
+
+    font-size: 19px;
+
+}
+
+#inputNovaTarefa {
+    
+    padding: 0 10px;
+    height: 40px;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #0ccbde;
+    font-family: var(--font);
+
+}
+
+#btnNovaTarefa {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 25px;
+    color: white;
+    background-color: #0ccbde;
+}
+
+#btnNovaTarefa:hover {
+
+    transform: scale(1.1);
+}
+
+#listaDeTarefasv ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#listaDeTarefas ul li {
+
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #fff;
+    list-style: none;
+
+}
+
+#listaDeTarefas ul li:hover {
+
+    background-color: #0ccbde;
+    color: #ffffff
+}
